@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.20.7/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="navbarp">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <img src="images/image.webp" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img src="images/image.webp" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="product.html"
+                    >OUR PRODUCTS</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="csr.html">CSR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section
+      class="productbanner"
+      style="
+        background-image: url(images/productbanner.webp);
+        background-position: center;
+        background-size: cover;
+        height: 672px;
+      "
+    >
+      <div class="productbannerheading">
+        <h1>Our <span>Product</span></h1>
+      </div>
+    </section>
+
+    <section class="aboutproduct">
+      <div class="container">
+        <div class="productabouthead" data-aos="fade-down">
+          <div class="imageproduct">
+            <img src="images/productabout.webp" alt="" />
+          </div>
+          <h1>Our <span>Product</span></h1>
+          <div class="productgif">
+            <img src="images/imagegif.webp" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="balanced col-lg-6">
+            <h2>Balanced Nutrition For <span>Animal</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Adipiscing vivamus velit
+              massa vel neque lacus massa vel urna. Ut consectetur dolor
+              porttitor volutpat est amet facilisis sit et. Sed vel aliquet eu
+              dictum vel et integer amet. Egestas molestie volutpat vitae odio
+              sodales. Viverra amet ornare egestas sit orci nisi arcu aliquet.
+              Morbi in in vestibulum aliquam ultrices morbi commodo quis. Hac at
+              hendrerit nunc viverra. Nunc volutpat nunc tortor mollis sit. Eu
+              porta amet placerat eget congue pellentesque vitae fermentum. Non
+            </p>
+          </div>
+          <div class="productimg col-lg-6" data-aos="fade-left">
+            <img src="images/aboutproductimg.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="petfeed">
+      <div class="container">
+        <div class="petfeedhead" data-aos="fade-down">
+          <h1>Our Animal Feed And Pet Food <span>Products</span></h1>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food1.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Rice DDGS</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food2.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Corn DDGS</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food3.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Corn Gluten Meal</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food4.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Roasted Guar Korma</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food5.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Rice Gluten</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food6.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Turmeric DOC</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food7.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Sunflower Doc</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <img class="foodline" src="images/foodline.webp" alt="" />
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="foodimg" data-aos="fade-right">
+              <img src="images/food8.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="foodtext">
+              <h4>Rice Protein Meal</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Malesuada morbi donec
+                nullam tristique eu. A massa faucibus tempus commodo adipiscing
+                egestas risus. Faucibus sit id maecenas ut.
+              </p>
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="backgroundblue">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="backblueheading">
+              <h3>START NOW</h3>
+              <h1>To feed your animals as if they were our own.</h1>
+              <div class="backbluebtn">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary getstarted">
+                    Get Started
+                  </button>
+                </form>
+              </div>
+              <p>
+                Want to contact our team and book a call?
+                <span>Try it now</span>
+              </p>
+            </div>
+          </div>
+          <div class="bigspoon col-lg-6" data-aos="fade-left">
+            <img src="images/bigspoon.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="partnersheading" data-aos="fade-down">
+        <h1>Partner & <span> Protection</span></h1>
+      </div>
+      <div class="partnerslines">
+        <img src="images/partnerbigline.webp" alt="" />
+      </div>
+      <div
+        class="uk-position-relative uk-visible-toggle uk-light"
+        tabindex="-1"
+        uk-slider
+      >
+        <div
+          class="uk-slider-items uk-child-width-1-5 uk-child-width-1-5@m uk-grid"
+        >
+          <div>
+            <div class="partnerimg uk-panel">
+              <img src="images/partner1.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner2.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner3.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner4.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner5.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner2.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner3.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner4.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner5.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner4.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="uk-position-center-left uk-position-small uk-hidden-hover"
+          href
+          uk-slidenav-previous
+          uk-slider-item="previous"
+        ></a>
+        <a
+          class="uk-position-center-right uk-position-small uk-hidden-hover"
+          href
+          uk-slidenav-next
+          uk-slider-item="next"
+        ></a>
+      </div>
+    </section>
+
+    <section class="footer123">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Links  -->
+        <section class="footer599">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="footerhead text-uppercase fw-bold mb-4">Pages</h6>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer1.webp" alt="" />
+                    Home</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer2.webp" alt="" />
+                    About Us</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer3.webp" alt="" />
+                    Our Product</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer4.webp" alt="" />
+                    Blogs</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer5.webp" alt="" />
+                    Certification</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer6.webp" alt="" />
+                    Contact Us</a
+                  >
+                </p>
+              </div>
+
+              <div class="marginnone col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="footerhead text-uppercase fw-bold mb-4">Policies</h6>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer7.webp" alt="" />
+                    Terms and Conditions</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer8.webp" alt="" />
+                    Prorich Warranty Policy</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer9.webp" alt="" />
+                    Privacy Policy</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer10.webp" alt="" />
+                    E-Waste Management Policy</a
+                  >
+                </p>
+              </div>
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="footerhead text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" class="text-reset">Rice DDGS</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corn DDGS</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corn Gluten Meal</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corn Gluten Feed</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Roasted Guar Korma</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Rice Gluten</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Turmeric DOC</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sunflower DOC</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Rice Protein Meal</a>
+                </p>
+              </div>
+
+              <div
+                class="footerhead col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+              >
+                <div class="timings">
+                  <p>Opening Time</p>
+                  <h2>Mon-Sat 9.00-6.00.</h2>
+                  <h3>Sunday Closed</h3>
+                </div>
+                <div class="support">
+                  <div class="supporttext">
+                    <h4>CUSTOMER SUPPORT</h4>
+                    <h6>+91-9910134545</h6>
+                  </div>
+                  <div class="supportimg">
+                    <img src="images/whatapp.webp" alt="" />
+                  </div>
+                </div>
+
+                <div class="social">
+                  <img src="images/sm1.webp" alt="" />
+                  <img src="images/sm2.webp" alt="" />
+                  <img src="images/sm3.webp" alt="" />
+                  <img src="images/sm4.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="location">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <p>
+                  <img src="images/location.webp" alt="" /> 601-602, Motia Royal
+                  Business Park, Zirakpur-140603, Punjab, India
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  <img src="images/star.webp" alt="" /> @2024 All rights
+                  reserved by Prorich Agro Pvt Ltd
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.7/dist/js/uikit-icons.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

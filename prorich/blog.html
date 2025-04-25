@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.20.7/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="navbarp">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <img src="images/image.webp" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img src="images/image.webp" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">OUR PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="blog.html">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="csr.html">CSR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section
+      class="blogbanner"
+      style="
+        background-image: url(images/blogbanner.webp);
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+      "
+    >
+      <div class="blogbannertext">
+        <h1>Blogs</h1>
+      </div>
+    </section>
+
+    <section class="latestblog">
+      <div class="container">
+        <div class="bloghead" data-aos="fade-down">
+          <h1>Our Latest <span>Blogs</span></h1>
+          <img src="images/imagegif.webp" alt="" />
+        </div>
+        <div class="row">
+          <div class="margingiven7 col-lg-7">
+            <div class="blogpart1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Nullam condimentum
+                tellus pretium amet cursus. Sit aliquet est elit nisl tristique
+                neque tortor ut. Egestas malesuada quam eu est id in pretium
+                eleifend. Lorem ornare lectus integer erat auctor sed. Turpis
+                dui consectetur scelerisque eleifend adipiscing eget leo.
+              </p>
+              <img src="images/blogimg1.webp" alt="" />
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Ac lorem eget in non
+                sagittis ut eget magna suscipit. Quam sed morbi ornare cursus
+                sed. Vestibulum felis pellentesque facilisis turpis ac sed. Ac
+                magna id risus id proin morbi enim sed. In nulla ac non
+                pellentesque in. Aliquam neque ut consequat lectus. Vitae vitae
+                bibendum ornare amet eget. Commodo integer metus aenean urna
+                amet sollicitudin. Viverra elementum sed natoque quis. Aliquam
+                justo sed dolor sed. Turpis eget egestas ac urna quis facilisis
+                enim urna quis. Mauris lacus pellentesque odio urna mattis.
+                Cursus aliquet et vel in neque ornare.
+              </p>
+              <img src="images/blogimg2.webp" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Commodo lorem potenti
+                justo eget tempus risus pharetra porta. Et duis duis pulvinar
+                faucibus. Libero porta commodo pretium purus pellentesque
+                placerat libero sit. Morbi hendrerit pulvinar amet ultrices. Sed
+                lacinia viverra viverra consequat mi nunc condimentum mi.
+                Habitant scelerisque integer quis felis cursus auctor diam.
+                Tincidunt quis consectetur elit egestas odio vitae pharetra
+                placerat. Cursus nulla eu feugiat quis. At odio turpis
+                ullamcorper egestas. Amet senectus erat quis ultrices.
+              </p>
+            </div>
+          </div>
+          <div class="margingiven col-lg-5">
+            <div class="blogbuttons">
+              <button>Rice DDGS</button>
+              <button>Animal Feed</button>
+              <button>Turmeric Powder</button>
+              <button>Corn DDGS</button>
+              <button>Meat Bone Meal</button>
+              <button>Guar Meal Churi</button>
+            </div>
+
+            <div class="search">
+              <h4>Search</h4>
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i> Search
+              </button>
+            </div>
+
+            <div class="mealimages">
+              <img src="images/meal1.webp" alt="" />
+              <p class="meal1">Meat Bone Meal</p>
+              <img src="images/meal2.webp" alt="" />
+              <p class="meal2">
+                Soyabeen Meal <br />
+                Extract
+              </p>
+              <img src="images/meal3.webp" alt="" />
+              <p class="meal3">Soya De Oiled Cake</p>
+              <img src="images/meal4.webp" alt="" />
+              <p class="meal4">
+                Rice Gluten <br />
+                Meal
+              </p>
+              <img src="images/meal5.webp" alt="" />
+              <p class="meal5">
+                Palm Kernel <br />
+                Meal
+              </p>
+              <img src="images/meal6.webp" alt="" />
+              <p class="meal6">
+                Mustard De <br />
+                Oiled Cake
+              </p>
+            </div>
+
+            <div class="socialmediaicons">
+              <h1>Stay in touch</h1>
+              <div class="icons">
+                <img src="images/icon1.webp" alt="" />
+              </div>
+            </div>
+
+            <div class="readmore">
+              <h1>Read more</h1>
+              <div class="firstblog">
+                <div class="firstimg">
+                  <img src="images/firstblogimg.webp" alt="" />
+                </div>
+                <div class="firstblogtext">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur. Dictumst lorem
+                    tristique sit habitasse.
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Rutrum non lobortis
+                    duis vel. Dignissim tincidunt varius eu ligula magnis sed.
+                    Aenean varius.
+                  </p>
+                  <h6>Author: lorem ipsum</h6>
+                </div>
+              </div>
+
+              <div class="firstblog">
+                <div class="firstimg">
+                  <img src="images/secondblog.webp" alt="" />
+                </div>
+                <div class="firstblogtext">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur. Dictumst lorem
+                    tristique sit habitasse.
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Rutrum non lobortis
+                    duis vel. Dignissim tincidunt varius eu ligula magnis sed.
+                    Aenean varius.
+                  </p>
+                  <h6>Author: lorem ipsum</h6>
+                </div>
+              </div>
+
+              <div class="firstblog">
+                <div class="firstimg">
+                  <img src="images/thirdblog.webp" alt="" />
+                </div>
+                <div class="firstblogtext">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur. Dictumst lorem
+                    tristique sit habitasse.
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Rutrum non lobortis
+                    duis vel. Dignissim tincidunt varius eu ligula magnis sed.
+                    Aenean varius.
+                  </p>
+                  <h6>Author: lorem ipsum</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="add">
+              <div class="addheading">
+                <h1>Ads</h1>
+                <img src="images/addimg.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="partnersheading" data-aos="fade-down">
+        <h1>Partner & <span> Protection</span></h1>
+      </div>
+      <div class="partnerslines">
+        <img src="images/partnerbigline.webp" alt="" />
+      </div>
+      <div
+        class="uk-position-relative uk-visible-toggle uk-light"
+        tabindex="-1"
+        uk-slider
+      >
+        <div
+          class="uk-slider-items uk-child-width-1-5 uk-child-width-1-5@m uk-grid"
+        >
+          <div>
+            <div class="partnerimg uk-panel">
+              <img src="images/partner1.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner2.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner3.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner4.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner5.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner2.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner3.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner4.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner5.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="uk-panel">
+              <img src="images/partner4.webp" width="400" height="600" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="uk-position-center-left uk-position-small uk-hidden-hover"
+          href
+          uk-slidenav-previous
+          uk-slider-item="previous"
+        ></a>
+        <a
+          class="uk-position-center-right uk-position-small uk-hidden-hover"
+          href
+          uk-slidenav-next
+          uk-slider-item="next"
+        ></a>
+      </div>
+    </section>
+
+    <section class="footer123">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Links  -->
+        <section class="footer599">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="footerhead text-uppercase fw-bold mb-4">Pages</h6>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer1.webp" alt="" />
+                    Home</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer2.webp" alt="" />
+                    About Us</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer3.webp" alt="" />
+                    Our Product</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer4.webp" alt="" />
+                    Blogs</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer5.webp" alt="" />
+                    Certification</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer6.webp" alt="" />
+                    Contact Us</a
+                  >
+                </p>
+              </div>
+
+              <div class="marginnone col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="footerhead text-uppercase fw-bold mb-4">Policies</h6>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer7.webp" alt="" />
+                    Terms and Conditions</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer8.webp" alt="" />
+                    Prorich Warranty Policy</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer9.webp" alt="" />
+                    Privacy Policy</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    <img class="footerimg" src="images/footer10.webp" alt="" />
+                    E-Waste Management Policy</a
+                  >
+                </p>
+              </div>
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="footerhead text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" class="text-reset">Rice DDGS</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corn DDGS</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corn Gluten Meal</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corn Gluten Feed</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Roasted Guar Korma</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Rice Gluten</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Turmeric DOC</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sunflower DOC</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Rice Protein Meal</a>
+                </p>
+              </div>
+
+              <div
+                class="footerhead col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+              >
+                <div class="timings">
+                  <p>Opening Time</p>
+                  <h2>Mon-Sat 9.00-6.00.</h2>
+                  <h3>Sunday Closed</h3>
+                </div>
+                <div class="support">
+                  <div class="supporttext">
+                    <h4>CUSTOMER SUPPORT</h4>
+                    <h6>+91-9910134545</h6>
+                  </div>
+                  <div class="supportimg">
+                    <img src="images/whatapp.webp" alt="" />
+                  </div>
+                </div>
+
+                <div class="social">
+                  <img src="images/sm1.webp" alt="" />
+                  <img src="images/sm2.webp" alt="" />
+                  <img src="images/sm3.webp" alt="" />
+                  <img src="images/sm4.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="location">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <p>
+                  <img src="images/location.webp" alt="" /> 601-602, Motia Royal
+                  Business Park, Zirakpur-140603, Punjab, India
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  <img src="images/star.webp" alt="" /> @2024 All rights
+                  reserved by Prorich Agro Pvt Ltd
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.7/dist/js/uikit-icons.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

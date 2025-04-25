@@ -1,0 +1,901 @@
+@media (max-width: 480px) {
+  .banner {
+    width: 544px;
+    height: 1752px;
+}
+  .cowrow123 img {
+    width: 19%;
+    height: 40px;
+  }
+  .cowrow {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .cowimagerow h6 {
+    font-size: 23px;
+    padding-left: 34px;
+  }
+  .cowimagerow h1 {
+    font-size: 57px;
+    padding-left: 30px;
+  }
+  .aboutheading h1 {
+    font-size: 37px;
+  }
+  .cowimagerow p {
+    color: white;
+    line-height: 34px;
+    text-align: justify;
+    padding: 30px;
+    font-size: 25px;
+  }
+  .aboutch img {
+    left: 274px;
+    height: 73px;
+    top: -16px;
+  }
+  .aboutheading h1::before {
+    left: 96px;
+    width: 242px;
+}
+  .aboutheading span::after {
+    left: 96px;
+    width: 242px;
+  }
+  .aboutheading img {
+    left: 272px;
+  }
+  .factsheading h1 {
+    font-size: 37px;
+  }
+  .factstext p {
+    padding: 17px;
+    font-size: 25px;
+    line-height: 33px;
+}
+  .feedheading h1 {
+    font-size: 33px;
+  }
+  .feedheading h1 {
+    font-size: 33px;
+    margin-left: 50px;
+  }
+  .factsheading h1::before {
+    left: 80px;
+    width: 291px;
+  }
+  .factsheading span::after {
+    left: 80px;
+    width: 291px;
+  }
+  .factsheading img {
+    position: absolute;
+    left: 342px;
+    height: 36px;
+    margin-top: -36px;
+  }
+  .cowimg img {
+    height: 125px;
+    width: 26%;
+    left: -31px;
+    top: 28px;
+}
+.feedheading h1::before {
+  left: 106px;
+  width: 384px;
+}
+.feedheading span::after {
+  left: 108px;
+  width: 384px;
+}
+  .feedheading img {
+    left: 318px;
+  }
+  .feedheading span::after {
+    left: 108px;
+    width: 210px;
+  }
+  .feedheading p {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    font-size: 22px;
+  }
+  button#cow1 {
+    top: -4px;
+    left: 259px;
+}
+button#cow2 {
+  left: 45px;
+  top: -5px;
+}
+button#cow3 {
+  left: 33px;
+  top: 68px;
+}
+button#cow4 {
+  left: 249px;
+  top: 69px;
+}
+button#cow5 {
+  left: 33px;
+  top: 139px;
+}
+button#cow6 {
+  left: 215px;
+  top: 138px;
+}
+button#cow7 {
+  right: 19px;
+  top: 211px;
+}
+button#cow8 {
+  right: 247px;
+  top: 212px;
+}
+button#cow9 {
+  right: 158px;
+  top: 289px;
+}
+.bigricecircle {
+  height: 1245px;
+  margin-top: 19px;
+}
+.about123 p {
+  font-size: 25px;
+  line-height: 35px;
+}
+  .cowimagefood img {
+    height: 205px;
+    width: 50%;
+    left: 116px;
+    position: absolute;
+    top: 529px;
+}
+section.aboutproduct {
+  margin-top: 74px;
+  overflow: hidden;
+  margin-left: 12px;
+  margin-right: -151px;
+}
+  section.about123 {
+    overflow: hidden;
+    margin-left: -5px;
+    margin-right: -113px;
+}
+  section.about {
+    overflow: hidden;
+    margin-left: 44px;
+    margin-right: -129px;
+}
+section.teabags {
+  margin-top: -340px;
+  margin-left: 1px;
+  margin-right: -167px;
+}
+section.nutrition {
+  margin-top: 101px;
+  margin-left: 18px;
+  margin-right: -145px;
+}
+section.industry {
+  margin-top: 80px;
+  margin-left: 31px;
+  margin-right: -136px;
+}
+  .teaheading h1::before {
+    left: 6px;
+    width: 530px;
+}
+  .teaheading h1::after {
+    left: 6px;
+    width: 530px;
+  }
+  .aboutheadingimage img {
+    height: 36px;
+    position: absolute;
+    top: -37px;
+    left: 310px;
+}
+.about123ch img {
+  position: absolute;
+  left: -38px;
+  height: 114px;
+  top: 7px;
+}
+  .about123heading h1::before {
+    content: "";
+    display: block;
+    top: 0;
+    left: 83px;
+        width: 303px;
+    background: #f7c35f;
+    position: relative;
+    height: 1px;
+  }
+  .about123heading h1::after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 83px;
+    width: 303px;
+    background: #f7c35f;
+    position: relative;
+    height: 1px;
+  }
+
+  .aboutch img {
+    left: 11px;
+}
+  .teass1.col-lg-3 {
+    margin-bottom: 25px;
+  }
+  .teass2.col-lg-3 {
+    margin-bottom: 25px;
+  }
+  .teass3.col-lg-3 {
+    margin-bottom: 25px;
+  }
+  .teass4.col-lg-3 {
+    margin-bottom: 25px;
+  }
+  input#exampleInputEmail1 {
+    width: 220px;
+  }
+  .effiheading h1 {
+    font-size: 34px;
+    margin-left: 40px;
+  }
+  .effiheading h1::before {
+    left: 53px;
+    width: 277px;
+  }
+  .effiheading h1::after {
+    left: 54px;
+    width: 307px;
+  }
+  .effiimg img {
+    top: -153px;
+    left: -8px;
+  }
+  .rawmaterial1 {
+    margin-left: 26px;
+  }
+  .rawline img {
+    width: 323px;
+    left: 29px;
+  }
+  .nutritionheading h1 {
+    font-size: 37px;
+    margin-left: -63px;
+}
+  .nutritionimg img {
+    height: 84px;
+    position: absolute;
+    top: -92px;
+    right: -33px;
+}
+.nutritionheading h1::before {
+  left: -10px;
+  width: 452px;
+}
+  .nutritionheading span::after {
+    left: -10px;
+    width: 452px;
+  }
+  .card-text {
+    font-size: 22px;
+  }
+  .card img {
+    top: -126px;
+    left: 231px;
+    width: 63px;
+    height: 70px;
+}
+.nutritionimg1 img {
+  top: 31px;
+  height: 298px;
+}
+  .responsivenutri.murgi.col-lg-4 {
+    margin-top: 342px;
+  }
+  .industry h1 {
+    font-size: 34px;
+  }
+  .industry h1::before {
+    left: 30px;
+    width: 325px;
+  }
+  .industry span::after {
+    left: 84px;
+    width: 211px;
+  }
+  .industry h5 {
+    font-size: 33px;
+  }
+  .industry p {
+    font-size: 26px;
+    text-align: justify;
+    padding: 20px;
+}
+  section.facts {
+    margin-left: 42px;
+    margin-right: -118px;
+}
+  section.efficient {
+    display: none;
+  }
+  section.animalfeed {
+    margin-left: 30px;
+    margin-right: -134px;
+}
+section.manufacture {
+  margin-top: 111px;
+  margin-left: 4px;
+  margin-right: -49px;
+}
+  .questionheading h5 {
+    font-size: 17px;
+    margin-left: 39px;
+  }
+  .questionheading h5::before {
+    left: 132px;
+    width: 149px;
+  }
+  .questionheading h5::after {
+    left: 132px;
+    width: 149px;
+  }
+  .questionheading h1 {
+    font-size: 35px;
+    text-align: start;
+  }
+  .questionimg img {
+    margin: 0px;
+  }
+  .partnersheading h1 {
+    font-size: 32px;
+  }
+  .qoutesimg {
+    left: 280px !important;
+}
+  .testheading h1 {
+    font-size: 32px;
+  }
+  .cardheight.card-body {
+    height: 150px;
+    width: 389px;
+}
+  .testheading p {
+    font-size: 22px;
+    text-align: justify;
+  }
+  .row.mt-3 {
+    text-align: start;
+  }
+  section.aboutbanner {
+    height: 528px !important;
+    width: 544px;
+}
+  .bannerheading h1 {
+    top: 182px;
+    right: 73px;
+  }
+  .bannercow1 img {
+    position: absolute;
+    top: 273px;
+    height: 100px;
+    left: 6px;
+    width: 146px;
+  }
+  .bannercow2 img {
+    display: none;
+  }
+  .about p {
+    padding: 0px;
+    font-size: 25px;
+    line-height: 33px;
+}
+  .chaaraimg img {
+    width: 100%;
+    padding-left: 0px;
+    height: 403px;
+  }
+  .maniheading h1 {
+    font-size: 33px;
+  }
+  .maniheading h1::before {
+    left: 50px;
+    width: 252px;
+  }
+  .maniheading span::after {
+    left: 1px;
+    width: 352px;
+  }
+  .manutext p {
+    font-size: 25px;
+    line-height: 33px;
+    margin-left: -11px;
+    margin-right: -34px;
+  }
+  .imageset.card {
+    width: 33rem;
+    margin-left: -31px;
+    margin-right: -114px;
+}
+.imageset.card img {
+  top: 0px;
+  left: 199px;
+  height: 105px;
+  width: 120px;
+}
+  .maniheading img {
+    top: -158px;
+    left: 274px;
+  }
+  .vissionhead h1 {
+    right: 256px;
+    top: 132px;
+    font-size: 22px;
+  }
+  .missionhead h1 {
+    top: 133px;
+    font-size: 20px;
+    left: 256px;
+  }
+  .mission p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    line-height: 33px;
+  }
+  .vission p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    line-height: 33px;
+  }
+  .missionimage {
+    height: 250px !important;
+  }
+  .mission.col-lg-6 {
+    padding-left: 27px;
+  }
+  .vission.col-lg-6 {
+    padding-left: 25px;
+  }
+  .mission h1 {
+    font-size: 45px;
+  }
+  .vission h1 {
+    font-size: 45px;
+  }
+  section.whyprorich {
+    margin-top: 91px;
+    width: 544px;
+}
+  .whyprorich {
+    height: 1691px !important;
+    width: 465px;
+  }
+  .feilds123 {
+    margin-top: 79px;
+  }
+  .prorichhead h1 {
+    top: 48px;
+  }
+  .farm img {
+    height: 80px;
+    margin-left: 170px;
+  }
+  .farm h1 {
+    font-size: 36px;
+  }
+  .farm p {
+    font-size: 19px;
+  }
+  .farm.col-lg-3 {
+    padding: 39px;
+  }
+  .testheading p {
+    font-size: 21px;
+  }
+  .questionheading {
+    margin-left: 41px;
+  }
+  .questionheading h5::before {
+    left: 103px;
+    width: 149px;
+  }
+  .questions {
+    margin-top: 113px;
+    margin-left: 17px;
+    margin-right: -27px;
+  }
+  .questionheading h5::after {
+    left: 103px;
+    width: 149px;
+  }
+  .testheading h4::before {
+    left: 111px;
+    width: 153px;
+  }
+  .testheading h4::after {
+    left: 111px;
+    width: 153px;
+  }
+  .testheading h4 {
+    font-size: 23px;
+  }
+  .missionheading h1::before {
+    left: 46px;
+  }
+  .missionheading h1::after {
+    left: 46px;
+  }
+  .missionheading img {
+    left: 301px;
+  }
+  .partnersheading h1::before {
+    left: 28px;
+    width: 320px;
+  }
+  .partnersheading h1::after {
+    left: 28px;
+    width: 320px;
+  }
+  .productbanner {
+    height: 549px !important;
+    width: 544px;
+}
+  .productbannerheading h1 {
+    left: 146px;
+  }
+  .productabouthead h1 {
+    margin-left: 9px;
+  }
+  .imageproduct img {
+    padding: 0px;
+    height: 75px;
+    width: 88px;
+  }
+  .productgif img {
+    height: 55px;
+    position: relative;
+    top: -46px;
+    left: -13px;
+  }
+  .balanced p {
+    font-size: 25px;
+    padding: 15px;
+    line-height: 34px;
+}
+  .balanced h2 {
+    padding-left: 15px;
+    font-size: 29px;
+  }
+  .petfeedhead h1 {
+    font-size: 32px;
+  }
+  .foodtext {
+    padding-left: 28px;
+    padding-bottom: 39px;
+  }
+  .blogbannertext h1 {
+    top: 219px;
+    left: 65px;
+    font-size: 55px;
+  }
+  .blogbanner {
+    height: 442px;
+  }
+  .purposeheading h1 {
+    font-size: 53px;
+    margin-left: 96px;
+  }
+  .purposeheading h1::before {
+    left: 70px;
+    width: 204px;
+  }
+  .purposeheading h1::after {
+    left: 70px;
+    width: 202px;
+  }
+  .purposeheading img {
+    left: 344px;
+  }
+  section.scope {
+    margin-top: 85px;
+    margin-left: -10px;
+    margin-right: -82px;
+  }
+  .foodimg img {
+    left: 121px;
+}
+  .blogbanner {
+    height: 450px !important;
+    width: 544px;
+  }
+  section.purpose {
+    margin-top: 71px;
+    text-align: center;
+    margin-left: -5px;
+    margin-right: -86px;
+  }
+  .bloghead h1 {
+    margin-left: 38px;
+    font-size: 39px;
+  }
+  section.latestblog {
+    margin-top: 90px;
+    margin-left: -29px;
+    margin-right: -103px;
+}
+  .blogbannertext h1 {
+    top: 224px;
+    left: 146px;
+  }
+  .bloghead img {
+    left: 326px;
+    top: -94px;
+  }
+  section.petfeed {
+    margin-top: 92px;
+    margin-left: 11px;
+    margin-right: -143px;
+}
+  .foodtext p {
+    font-size: 20px;
+  }
+  .blogpart1 img {
+    border-radius: 20px;
+    margin-left: 15px;
+  }
+  .blogpart1 p {
+    margin-top: 19px;
+    font-size: 25px;
+    line-height: 33px;
+    padding-left: 20px;
+}
+  .blogbuttons {
+    margin-top: 26px;
+    margin-left: 19px;
+  }
+  .bloghead h1::before {
+    left: 4px;
+    width: 310px;
+  }
+  .bloghead span::after {
+    left: 4px;
+    width: 310px;
+  }
+  .bloghead img {
+    left: 326px;
+    top: -95px;
+  }
+  .search button {
+    padding-right: 243px;
+  }
+  .margingiven.col-lg-5 {
+    margin-left: 33px;
+  }
+  .mealimages {
+    margin-left: 25px;
+  }
+  section.partners {
+    margin-left: 25px;
+    width: 501px;
+  }
+  section.testimonials {
+    margin-top: 110px;
+    margin-left: 34px;
+    margin-right: -119px;
+}
+  .margingiven7.col-lg-7 {
+    margin-left: 34px;
+  }
+  section.footer599 {
+    width: 544px;
+  }
+  section.whoweare {
+    margin-top: 101px;
+    margin-left: 41px;
+    margin-right: -92px;
+}
+  .location {
+    width: 544px;
+  }
+  .include {
+    width: 441px;
+  }
+  .firstblog {
+    padding: 0px;
+  }
+  .contactus {
+    height: 477px !important;
+  }
+  .contactbannertext h1 {
+    top: 228px;
+    left: 49px;
+    font-size: 53px;
+  }
+  button.btn.btn-primary {
+    left: 69px;
+  }
+  .contact123 {
+    padding: 35px;
+    padding-top: 97px;
+  }
+  .letstalk h1 {
+    font-size: 34px;
+  }
+  .letstalk p {
+    font-size: 15px;
+  }
+  .contactinfo h3 {
+    margin-left: 9px;
+  }
+  .contactinfo ul {
+    padding-left: 0px;
+    font-size: 13px;
+  }
+  section.access {
+    margin-top: 80px;
+    margin-left: -11px;
+    margin-right: -85px;
+  }
+  .form123 {
+    padding: 37px;
+  }
+  .scopeheading h1::before {
+    left: 165px;
+    width: 117px;
+  }
+  .scopeheading h1::after {
+    left: 164px;
+    width: 117px;
+  }
+  .scopeheading img {
+    left: 255px;
+  }
+  .accessheading h1::before {
+    left: 81px;
+    width: 280px;
+  }
+  .accessheading span::after {
+    left: 81px;
+    width: 280px;
+  }
+  .accessheading img {
+    top: -34px;
+    left: 334px;
+  }
+  section.principle {
+    margin-top: 72px;
+    margin-left: -8px;
+    margin-right: -88px;
+  }
+  .principlehead h1::before {
+    left: 141px;
+    width: 158px;
+  }
+  .principlehead h1::after {
+    left: 141px;
+    width: 158px;
+  }
+  .principlehead img {
+    left: 272px;
+  }
+  form {
+    width: 303px;
+  }
+  .arrowup {
+    height: 223px;
+  }
+  .pincipleform {
+    width: 416px;
+    margin-left: 69px;
+  }
+  .blogbannertext h1 {
+    top: 224px;
+    left: 108px;
+  }
+  .purposetext.col-lg-7 {
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 35px;
+    padding-right: 0px;
+  }
+  .purposeimg.col-lg-5 {
+    margin-left: 41px;
+    margin-top: 44px;
+  }
+  .scopemargin.container {
+    margin-left: 41px;
+  }
+  .scopeheading p {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .accessmar.container {
+    margin-left: 41px;
+  }
+  .accesstext p {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .principlemargin.container {
+    margin-left: 41px;
+  }
+  .principletext p {
+    font-size: 23px;
+    line-height: 33px;
+    text-align: justify;
+  }
+  select#disabledSelect {
+    border: 0px;
+    font-size: 19px;
+    width: 409px;
+  }
+  .arrowup {
+    height: 207px !important;
+    margin-left: 32px;
+  }
+  .processheading h1::before {
+    left: 39px;
+  }
+  .processheading span::after {
+    left: 39px;
+  }
+  .processheading img {
+    left: 292px;
+  }
+  .aboutmargin.container {
+    margin-left: 41px;
+  }
+  .marginmanufacture.container {
+    margin-left: 41px;
+  }
+  .processmargin.container {
+    margin-left: 41px;
+  }
+  p.card-text {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  section.whoweare {
+    margin-top: 101px;
+    margin-left: 41px;
+  }
+  .backgroundblue {
+    background: #131444;
+    margin-top: 80px;
+    width: 544px;
+  }
+  .farm p {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .questionmargin.container {
+    margin-left: -19px;
+  }
+  form.formwidth {
+    width: 399px;
+  }
+  section.process {
+    margin-top: 92px;
+    margin-left: 71px;
+  }
+  p.aboutcardtext.card-text {
+    font-size: 23px;
+    line-height: 33px;
+    padding: 25px;
+  }
+  .marginnone.col-md-2.col-lg-2.col-xl-2.mx-auto.mb-4 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+}
